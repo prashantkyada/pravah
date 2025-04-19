@@ -1,0 +1,24 @@
+body{font-family:Arial, Helvetica, sans-serif; margin:0px; padding:0px;}
+.main_div{float:left; width:100%; margin:0px; padding:0px;}
+.sub_div{float:left; width:100%;}
+.header{float:left; width:100%;}
+.logo_img{float:left; width:12%;}
+.header_hed{float:left; width:85%; font-size:34px; margin-top:55px; color:#95A3AB;}
+.header_border{float:left; width:100%; background-image: url(../image/bar_green.png); background-repeat:repeat-x; height:6px;}
+.delivrery_detail{float:left; width:100%; margin-top:25px;}
+.delivrery_name{float:left; width:50%;}
+.delivery_for{float:left; width:20%; font-size:12px;}
+.delivery_customer_name{float:left; width:80%; font-size:12px;}
+.coustomer_detail{float:left; width:100%; margin-top:15px;}
+.order_detail{float:left; width:50%;}
+.order_name{float:left; width:80%; font-size:12px;}
+.order_no,.order_date{float:left; width:25%; font-size:12px;}
+.order_no_detail,.order_date_detail{float:left; width:75%; font-size:12px;}
+.order_delivery_date{float:left; width:100%; margin-top:20px;}
+.map_pin{float:left; width:100%; margin-top:30px; text-align:center;}
+.table_product{float:left; width:100%; margin-top:30px;}
+.tabale_str,.order_detail_tbl{font-size:12px;}
+.bac_border_tbl{background-image: url(../image/bar_green.png); background-repeat:repeat-x; height:2px;}
+.tbl_total{text-align:right; font-size:20px; padding-right:40px; padding-top:20px;}
+.footer_line{float:left; width:100%; padding-top:150px; }
+.footerline_text{ text-align:center; font-size:18px; color:#95A3AB;}
