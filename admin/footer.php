@@ -1,7 +1,7 @@
 
     <!-- Le javascript
     ================================================== -->
-    <!-- Important plugins put in all pages -->
+    <!-- Important plugins put in all pages  -->
     <script  type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
