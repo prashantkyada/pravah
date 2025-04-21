@@ -260,7 +260,7 @@ if(isset($_POST['user_register']) && isset($_POST['mobile_no'])){
 		mysqli_query($mysqli,"insert into `tbl_user` set 
 		`name`='".$_POST['name']."',
 		`email`='".$_POST['email']."',
-		`password`='".password_hash($_POST['password'], PASSWORD_DEFAULT)."',
+		`password`='".$_POST['password']."',
 		`mobile_no`='".$_POST['mobile_no']."',
 		`address`='".$_POST['address']."',
 		`city_name`='".$_POST['city_name']."',
