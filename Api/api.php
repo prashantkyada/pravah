@@ -1048,14 +1048,9 @@ if(isset($_POST['new_order_list']) && isset($_POST['user_id']))
 				$row['discount_total'] = $maindata['discount_total'];
 				$row['final_total'] = $maindata['final_total'];
 				$row['date'] = $maindata['date'];	
-				if($curr_user_row['user_status'] == '2')
-				{
-					$order_form_link = ROOT_PATH.'Api/order_form.php?order_id='.$maindata['order_id'];
-				}
-				else
-				{
-					$order_form_link = '';
-				}
+				
+				$order_form_link = ROOT_PATH.'Api/order_form.php?order_id='.$maindata['order_id'];
+				
 		$order_details = [];
         $order_id = $maindata['order_id'];
 
